@@ -1,0 +1,23 @@
+
+;; ----- smex-history -----
+(
+ dired
+ simple-mpc
+ list-packages
+ mpc
+ magit-status
+ tabify
+ load-file
+)
+
+;; ----- smex-data -----
+(
+ (load-file . 2)
+ (list-packages . 4)
+ (sr-speedbar-open . 1)
+ (tabify . 30)
+ (magit-status . 1)
+ (mpc . 1)
+ (simple-mpc . 1)
+ (dired . 1)
+)

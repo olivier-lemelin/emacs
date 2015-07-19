@@ -1,0 +1,11 @@
+*~
+session.*
+auto*
+*.eld
+elpa
+eshell
+games
+semanticdb
+url
+ido.last
+ecb*
