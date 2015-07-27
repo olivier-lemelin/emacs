@@ -11,11 +11,13 @@
 (require 'clean-aindent-mode)
 (add-hook 'prog-mode-hook 'clean-aindent-mode)
 
+(add-hook 'prog-mode-hook 'dtrt-indent-mode)
+
 ;; Yasnippets Templating system
 (require 'yasnippet)
 (yas-global-mode 1)
 
-(add-to-list 'yas-root-directory "~/.emacs.d/snippets/")
+;(add-to-list 'yas-root-directory "~/.emacs.d/snippets/")
 (yas-initialize)
 
 ;; Checks error on the fly
@@ -40,6 +42,9 @@
 (add-hook 'c-mode-hook 'helm-gtags-mode)
 (add-hook 'c++-mode-hook 'helm-gtags-mode)
 (add-hook 'asm-mode-hook 'helm-gtags-mode)
+
+;; Semantic mode
+(add-hook 'prog-mode-hook 'semantic-mode)
 
 ;; Projectile mode: Adding project file completion
 ;; -----------------------------------------------

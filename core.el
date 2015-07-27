@@ -8,7 +8,7 @@
 (require 'package)
 
 ;; list the packages you want
-(setq package-list '(magit evil cedet ecb company company-c-headers cmake-mode helm yasnippet helm-gtags clean-aindent-mode ws-butler smartparens sr-speedbar monokai-theme slime skewer-mode web-mode flycheck tabbar projectile smex sublimity undo-tree aggressive-indent flx-ido irony company-irony emmet-mode rainbow-mode expand-region ox-ioslide auctex simple-mpc ))
+(setq package-list '(magit evil cedet ecb company company-c-headers cmake-mode helm yasnippet helm-gtags clean-aindent-mode ws-butler smartparens sr-speedbar monokai-theme slime skewer-mode web-mode flycheck tabbar projectile smex sublimity undo-tree aggressive-indent flx-ido irony company-irony emmet-mode rainbow-mode expand-region ox-ioslide auctex simple-mpc doremi doremi-cmd doremi-frm doremi-mac nyan-mode hydra ace-window transpose-frame sunshine dtrt-indent auto-complete org-gcal lua-mode auctex))
 
 ;; List the repositories containing them
 (setq package-archives '(("elpa" . "http://tromey.com/elpa/")

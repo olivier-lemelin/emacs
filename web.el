@@ -21,6 +21,9 @@
 (add-hook 'js-mode-hook
           (lambda () (flycheck-mode t)))
 
+;; Auto-complete mode
+(add-hook 'js2-mode-hook 'auto-complete-mode)
+
 ;; Emmet mode (Zen coding)
 
 (require 'emmet-mode)
