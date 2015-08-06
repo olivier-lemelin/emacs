@@ -1,23 +1,49 @@
 
 ;; ----- smex-history -----
 (
- dired
- simple-mpc
- list-packages
- mpc
  magit-status
- tabify
+ package-list-packages
  load-file
+ package-install
+ eshell
+ visual-line-mode
+ LaTeX-mode
 )
 
 ;; ----- smex-data -----
 (
- (load-file . 2)
- (list-packages . 4)
+ (load-file . 9)
+ (list-packages . 6)
  (sr-speedbar-open . 1)
  (tabify . 30)
- (magit-status . 1)
+ (magit-status . 18)
  (mpc . 1)
- (simple-mpc . 1)
- (dired . 1)
+ (simple-mpc . 4)
+ (dired . 4)
+ (eshell . 10)
+ (calendar . 1)
+ (org-mode . 4)
+ (battery . 1)
+ (line-number-mode . 2)
+ (package-install . 8)
+ (nyan-mode . 1)
+ (sauron-start . 1)
+ (shell . 2)
+ (find-file . 1)
+ (tabify-file . 1)
+ (eww . 1)
+ (flyspell-mode . 4)
+ (ispell-change-dictionary . 2)
+ (auto-save-mode . 2)
+ (evil-mode . 1)
+ (turn-off-evil-mode . 1)
+ (TeX-mode . 1)
+ (LaTeX-mode . 10)
+ (flyspell-buffer . 1)
+ (visual-line-mode . 3)
+ (latex-extra-mode . 2)
+ (package-list-packages . 3)
+ (smartparens-mode . 1)
+ (load-library . 1)
+ (eval-buffer . 1)
 )

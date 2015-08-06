@@ -2,6 +2,9 @@
 ;; Style and Editing
 ;; -----------------
 
+;; We want colored output in ESHELL.
+(add-hook 'shell-mode-hook 'ansi-color-for-comint-mode-on)
+
 ;; Remove the large bar on top of the screen.
 (when (fboundp 'tool-bar-mode)
   (tool-bar-mode -1))
