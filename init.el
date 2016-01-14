@@ -14,7 +14,7 @@
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 ;; list the packages you want
-(setq package-list '(magit evil elscreen cedet switch-window ecb company company-c-headers cmake-mode helm yasnippet helm-gtags clean-aindent-mode ws-butler smartparens sr-speedbar monokai-theme slime skewer-mode web-mode flycheck tabbar projectile smex sublimity undo-tree aggressive-indent flx-ido irony company-irony emmet-mode rainbow-mode expand-region ox-ioslide auctex simple-mpc doremi doremi-cmd doremi-frm doremi-mac nyan-mode hydra ace-window transpose-frame sunshine dtrt-indent auto-complete org-gcal lua-mode auctex avy neotree password-store git-timemachine w3m wanderlust twittering-mode icicles nasm-mode emms notmuch smtpmail elfeed spaceline auctex slime go-mode smooth-scrolling helm-projectile diminish helm-ag))
+(setq package-list '(magit evil elscreen cedet switch-window ecb company company-c-headers cmake-mode helm yasnippet helm-gtags clean-aindent-mode ws-butler smartparens sr-speedbar monokai-theme slime skewer-mode web-mode flycheck tabbar projectile smex sublimity undo-tree aggressive-indent flx-ido irony company-irony emmet-mode rainbow-mode expand-region ox-ioslide auctex simple-mpc doremi doremi-cmd doremi-frm doremi-mac nyan-mode hydra ace-window transpose-frame sunshine dtrt-indent auto-complete org-gcal lua-mode auctex avy neotree password-store git-timemachine w3m wanderlust twittering-mode icicles nasm-mode emms notmuch smtpmail elfeed spaceline auctex slime go-mode smooth-scrolling helm-projectile diminish helm-ag highlight-symbol haskell-mode flycheck-haskell))
 
 ;; List the repositories containing them
 (setq package-archives '(("elpa" . "http://tromey.com/elpa/")
@@ -72,6 +72,14 @@
 
 ;; Display column number.
 (setq column-number-mode t)
+
+;; Hides the scrollbars
+(scroll-bar-mode -1)
+
+;; Centered cursor mode
+;;(and
+;;  (require 'centered-cursor-mode)
+;;  (global-centered-cursor-mode +1))
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; GENERAL SETUP
@@ -166,7 +174,7 @@
 
 ;; Icicles
 ;; -------
-(icy-mode 1)
+;; (icy-mode 1)
 
 ;; AVY - Quick navigation
 ;; ----------------------
@@ -366,8 +374,7 @@ scroll-step 1)
 
 ;; Delete whitespace on save
 ;; -------------------------
-(setq-default indent-tabs-mode t)
-(setq tab-width 4) ; or any other preferred value
+(setq tab-width 4)
 (add-hook 'before-save-hook 'delete-trailing-whitespace)
 
 ;; Smart parenthesis
@@ -419,6 +426,12 @@ scroll-step 1)
 (add-to-list 'auto-mode-alist '("\\.markdown\\'" . markdown-mode))
 (add-to-list 'auto-mode-alist '("\\.md\\'" . markdown-mode))
 
+;; Haskell
+;; -------
+
+
+
+
 ;; Web Development
 ;; ---------------
 
@@ -432,6 +445,7 @@ scroll-step 1)
 (add-to-list 'auto-mode-alist '("\\.mustache\\'" . web-mode))
 (add-to-list 'auto-mode-alist '("\\.djhtml\\'" . web-mode))
 (add-to-list 'auto-mode-alist '("\\.html?\\'" . web-mode))
+(add-to-list 'auto-mode-alist '("\\.html\\'" . web-mode))
 (add-to-list 'auto-mode-alist '("\\.handlebars\\'" . web-mode))
 
 ;; Live Editing
@@ -444,6 +458,8 @@ scroll-step 1)
 
 ;; Auto-complete mode
 (add-hook 'js2-mode-hook 'auto-complete-mode)
+(autoload 'js2-mode "js2" nil t)
+(add-to-list 'auto-mode-alist '("\\.js$" . js-mode))
 
 ;; Emmet mode (Zen coding)
 
@@ -464,8 +480,12 @@ scroll-step 1)
 
 ;; Diminish modeline clutter
 (require 'diminish)
-(diminish 'wrap-region-mode)
-(diminish 'yas/minor-mode)
+(diminish 'company-mode)
+(diminish 'git-gutter-mode)
+(diminish 'helm-mode)
+(diminish 'projectile-mode)
+(diminish 'undo-tree-mode)
+(diminish 'icicle-mode)
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;Customizing the package

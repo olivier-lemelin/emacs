@@ -1,0 +1,140 @@
+;; -*- mode: emacs-lisp; coding: emacs-mule; -*-
+;; --------------------------------------------------------------------------
+;; Desktop File for Emacs
+;; --------------------------------------------------------------------------
+;; Created Sun Jan  3 00:42:09 2016
+;; Desktop file format version 206
+;; Emacs version 24.5.1
+
+;; Global section:
+(setq desktop-saved-frameset [frameset 1 (22152 46257 744423 972000) (desktop . "206") "lemelino@Machiavel" nil nil ((((font-backend xft x) (font . "-unknown-Inconsolata-normal-normal-normal-*-13-*-*-*-m-0-iso10646-1") (font-parameter) (border-width . 0) (internal-border-width . 0) (right-divider-width . 0) (bottom-divider-width . 0) (vertical-scroll-bars) (foreground-color . "#F8F8F2") (background-color . "#272822") (mouse-color . "#F8F8F2") (border-color . "black") (screen-gamma) (line-spacing) (left-fringe . 10) (right-fringe . 11) (scroll-bar-foreground . "#40a06e") (scroll-bar-background . "grey75") (menu-bar-lines . 1) (tool-bar-lines . 0) (title) (wait-for-wm . t) (fullscreen) (tool-bar-position . top) (icon-type . t) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 0) (alpha) (horizontal-scroll-bars . t) (display-type . color) (background-mode . dark) (cursor-color . "green") (environment) (frameset--id . "B707-44F9-F4D9-A936") (frameset--mini t . t) (modeline . t) (minibuffer . t) (unsplittable) (icon-name) (visibility . t) (display . ":0") (explicit-name) (height . 51) (width . 191) (left . 0) (top . 0)) ((min-height . 4) (min-width . 20) (min-height-ignore . 4) (min-width-ignore . 10) (min-height-safe . 1) (min-width-safe . 4) (min-pixel-height . 56) (min-pixel-width . 140) (min-pixel-height-ignore . 56) (min-pixel-width-ignore . 70) (min-pixel-height-safe . 14) (min-pixel-width-safe . 28)) hc (pixel-width . 1364) (pixel-height . 707) (total-width . 195) (total-height . 50) (normal-height . 1.0) (normal-width . 1.0) (combination-limit) (leaf (pixel-width . 685) (pixel-height . 707) (total-width . 98) (total-height . 50) (normal-height . 1.0) (normal-width . 0.5) (buffer "designer.js" (selected . t) (hscroll . 0) (fringes 10 11 nil) (margins 1) (scroll-bars 0 0 t nil) (vscroll . 0) (dedicated) (point . 837) (start . 389))) (leaf (last . t) (pixel-width . 679) (pixel-height . 707) (total-width . 97) (total-height . 50) (normal-height . 1.0) (normal-width . 0.5) (buffer "*Warnings*" (selected) (hscroll . 0) (fringes 10 11 nil) (margins 1) (scroll-bars 0 0 t nil) (vscroll . 0) (dedicated) (point . 357) (start . 1)))))])
+(setq desktop-missing-file-warning nil)
+(setq tags-file-name nil)
+(setq tags-table-list nil)
+(setq search-ring '("role" "min=" "haskell" "setPauseStatusIfPresent" "setPauseStatus" "setPauseSt" "pauseErrors" "saveValidate" "BLARG" "console" "put" "plain" "toJSON" "oldModified" "conso" "cons"))
+(setq regexp-search-ring '("max" "min=\"1\"" "inputmode=\"numeric\"" "h4" "<br \\/>" "req.adminLogging" ".log" "Database" "S3OutputHandler" "BaseLoggingInterface" "BaseOutputHandler" "bill" "realExpect" "%s/expect/realExpect/g" "upload" "etting"))
+(setq register-alist '((97) (48 . "Designer.prototype.")))
+(setq file-name-history '("~/Downloads/Phaser/part2.html" "~/Travail/sylvain.gagnon/monument-designer/new-start/js/designer.js" "/home/lemelino/Travail/sylvain.gagnon/monument-designer/new-start/.git/COMMIT_EDITMSG" "~/.emacs.d/init.el" "~/Travail/sylvain.gagnon/monument-designer/new-start/index.html" "~/.i3/config" "~/Travail/sylvain.gagnon/monument-designer/monument/public/js/app.js" "~/Travail/sylvain.gagnon/monument-designer/monument/public/index.php" "~/Travail/sofdesk/solargraf-api/modules/adminLogging/LoggingFacade.js" "~/Travail/sofdesk/solargraf-api/test/api/sessions/data.js" "~/Travail/sofdesk/solargraf-api/test/api/sessions/post.js" "~/Travail/sofdesk/solargraf-api/api/sessions.js" "/home/lemelino/Travail/sofdesk/solargraf-api/.git/COMMIT_EDITMSG" "~/Travail/sofdesk/solargraf-api/test/models/LeadSettings/data.js" "~/Travail/sofdesk/solargraf-api/models/Pricing.js" "~/Travail/sofdesk/solargraf-api/models/modelSharedFunctions.js" "~/Travail/sofdesk/solargraf-api/modules/adminLogging/MongoLoggingInterface.js" "~/Travail/sofdesk/solargraf-api/modules/adminLogging/TypeFormatterMap.js" "~/Travail/sofdesk/solargraf-api/models/LeadSettings.js" "~/Travail/sofdesk/solargraf-api/test/api/companies/put.js" "~/Travail/sofdesk/solargraf-api/api/companies.js" "~/Travail/sofdesk/solargraf-api/models/Company.js" "~/Travail/sofdesk/solargraf-api/api/users.js" "~/Travail/sofdesk/solargraf-api/modules/logger/config/test.js" "~/Travail/sofdesk/solargraf-api/modules/logger/index.js" "~/Travail/sofdesk/solargraf-api/config/global.js" "~/Travail/sofdesk/solargraf-api/modules/logger/config/global.js" "~/Travail/sofdesk/solargraf-api/modules/logger/config/dev.js" "~/Travail/sofdesk/solargraf-api/config/test.local.js" "~/Travail/sofdesk/solargraf-api/config/test.js" "~/Travail/sofdesk/solargraf-api/models/ProjectSettings.js" "~/Travail/sofdesk/solargraf-api/modules/adminLogging/config/global.js" "~/Travail/sofdesk/solargraf-api/api/subscriptions.js" "~/Travail/sofdesk/solargraf-api/modules/adminLogging/TypeFormatter.js" "~/Travail/sofdesk/solargraf-api/models/Subscription.js" "~/Travail/sofdesk/solargraf-api/models/SubscriptionCompany.js" "~/Travail/sofdesk/solargraf-api/test/api/users/delete.js" "~/Travail/sofdesk/solargraf-api/test/api/users/data.js" "~/Travail/sofdesk/solargraf-api/test/api/users/put.js" "~/Travail/sofdesk/solargraf-api/modules/adminLogging/config/test.js" "~/Travail/sofdesk/solargraf-api/modules/adminLogging/config/dev.js" "~/Travail/sofdesk/solargraf-api/api/projects.js" "~/Travail/sofdesk/solargraf-api/test/api/users/post.js" "~/Travail/sofdesk/solargraf-api/test/defaultFunctions.js" "~/Travail/sofdesk/solargraf-api/modules/adminLogging/index.js" "~/Travail/sofdesk/solargraf-api/api/template.js" "~/Travail/sofdesk/solargraf-api/test/modules/AdminLogging/index.js" "/home/lemelino/Travail/sofdesk/solargraf-api/.git/rebase-merge/git-rebase-todo" "~/Travail/sofdesk/solargraf-api/test/modules/billing/test.js" "~/Travail/sofdesk/solargraf-api/test/modules/taskScheduler/tasks/billing/captureTransactions/CaptureJob.js" "~/Travail/sofdesk/solargraf-api/test/modules/taskScheduler/tasks/billing/captureTransactions/functions.js" "~/Travail/sofdesk/solargraf-api/test/modules/taskScheduler/scheduler.js" "~/Travail/sofdesk/solargraf-api/test/modules/taskScheduler/main.js" "~/Travail/sofdesk/solargraf-api/test/modules/taskScheduler/executor.js" "~/Travail/sofdesk/solargraf-api/test/modules/incentives/get.js" "~/Travail/sofdesk/solargraf-api/modules/adminLogging/LoggingInterfaceFactory.js" "/home/lemelino/Travail/sofdesk/solargraf-api/modules/adminLogging/config/dev.js" "~/Travail/sofdesk/solargraf-api/config/index.js" "~/Travail/sofdesk/solargraf-api/index.js" "~/Travail/sofdesk/solargraf-api/modules/billing/index.js" "~/Travail/sofdesk/solargraf-api/modules/billing/transaction.js" "~/Travail/sofdesk/solargraf-api/test/modules/emails/test.js" "~/Travail/sofdesk/solargraf-api/modules/adminLogging/DatabaseLoggingInterface.js" "~/Travail/sofdesk/solargraf-api/modules/adminLogging/BaseLoggingInterface.js" "~/Travail/sofdesk/solargraf-api/modules/adminLogging/SimpleDB.js" "~/Travail/sofdesk/solargraf-api/models/Inverter.js" "~/Travail/sofdesk/solargraf-api/modules/adminLogging/SimpleDBLoggingInterface.js" "~/Travail/sofdesk/solargraf-api/models/User.js" "~/Travail/sofdesk/solargraf-api/modules/taskScheduler/tasks/billing/captureTransactions.js" "~/Travail/sofdesk/solargraf-api/test/modules/taskScheduler/tasks/billing/subscriptions/data.js" "~/Travail/sofdesk/solargraf-api/test/modules/taskScheduler/tasks/billing/captureTransactions/data.js" "~/Travail/sofdesk/solargraf-api/modules/fileReceiver/config/global.js" "~/Travail/sofdesk/solargraf-api/modules/geocoding/config/global.js" "~/Travail/sofdesk/solargraf-api/modules/fileReceiver/S3OutputHandler.js" "~/Travail/sofdesk/solargraf-api/modules/fileReceiver/index.js" "~/Travail/sofdesk/solargraf-api/modules/fileReceiver/CustomStorage.js" "~/Travail/sofdesk/solargraf-api/modules/fileReceiver/DiskOutputHandler.js" "~/Travail/sofdesk/solargraf-api/modules/fileReceiver/config/test.js" "~/Travail/sofdesk/solargraf-api/modules/fileReceiver/OutputHandlerFactory.js" "~/Travail/sofdesk/solargraf-api/modules/fileReceiver/BaseOutputHandler.js" "~/Travail/sofdesk/solargraf-api/migrations/20151210_183955_monthlyBills.js" "~/Travail/sofdesk/solargraf-api/models/AccessKey.js" "~/Travail/sofdesk/solargraf-api/models/ProjectStep.js" "~/Travail/sofdesk/solargraf-api/modules/incentives/index.js" "~/.emacs.d/backups/!home!lemelino!Travail!sofdesk!solargraf-app!testHarness.js~" "/home/lemelino/Travail/sofdesk/solargraf-app/.git/COMMIT_EDITMSG" "/home/lemelino/Travail/sofdesk/solargraf-app/.git/rebase-merge/git-rebase-todo" "~/Travail/sofdesk/solargraf-app/public/js/views/pages/projects/create/ProjectCreation.jsx" "~/Travail/sofdesk/solargraf-app/index.js" "~/Travail/sofdesk/solargraf-api/test/api/projects/data.js" "~/Travail/sofdesk/solargraf-api/test/api/projects/post.js" "~/Travail/sofdesk/solargraf-api/test/api/projects/put.js" "~/Travail/sofdesk/solargraf-api/migrations/20151211_132630_ProjectStep.js" "~/Travail/sofdesk/solargraf-api/migrations/20151116_160605_projectFile.js" "~/Travail/sofdesk/solargraf-api/migrations/20151127_161315_projectSettingsFlat.js" "~/Travail/sofdesk/solargraf-api/migrations/20151130_160845_blueColorscheme.js" "~/Travail/sofdesk/solargraf-api/migrations/20151208_115515_priceRange.js" "~/Travail/sofdesk/solargraf-api/test/api/companies/resources.js" "~/Travail/sofdesk/solargraf-api/models/MonthlyBill.js" "~/Travail/sofdesk/solargraf-api/test/models/Company/toJSON.js" "~/Travail/sofdesk/solargraf-api/test/models/AutoRenewPurchase/toJSON.js" "~/Travail/sofdesk/solargraf-api/test/models/Credential/toJSON.js" "~/Travail/sofdesk/solargraf-api/test/models/UtilityCompany/toJSON.js" "~/Travail/sofdesk/solargraf-api/test/models/User/toJSON.js" "~/Travail/sofdesk/solargraf-api/test/models/Template/toJSON.js" "~/Travail/sofdesk/solargraf-api/test/models/SubscriptionPurchase/toJSON.js" "~/Travail/sofdesk/solargraf-api/test/models/SubscriptionCompany/toJSON.js" "~/Travail/sofdesk/solargraf-api/test/models/Subscription/toJSON.js" "~/Travail/sofdesk/solargraf-api/test/models/Project/toJSON.js" "~/Travail/sofdesk/solargraf-api/test/models/LeadBankPurchase/toJSON.js" "~/Travail/sofdesk/solargraf-api/test/models/Comment/toJSON.js" "~/Travail/sofdesk/solargraf-api/test/models/ColorScheme/toJSON.js" "~/Travail/sofdesk/solargraf-api/test/models/Card/toJSON.js" "~/Travail/sofdesk/solargraf-api/test/models/DirectPurchase/toJSON.js" "~/Travail/sofdesk/solargraf-api/test/models/AccessKey/toJSON.js" "~/Travail/sofdesk/solargraf-api/test/models/ProjectSettings/toJSON.js" "~/Travail/sofdesk/solargraf-api/test/models/Pricing/functions.js" "~/Travail/sofdesk/solargraf-api/test/models/Pricing/toJSON.js" "~/Travail/sofdesk/solargraf-api/test/models/Pricing/setAttributes.js" "~/Travail/sofdesk/solargraf-app/public/js/views/pages/financial/modules/ProjectStepsModule.jsx" "~/Travail/sofdesk/solargraf-app/public/js/views/pages/financial/modules/acceptance/AcceptanceForm.jsx" "~/Travail/sofdesk/solargraf-app/public/js/views/pages/financial/modules/banner/Banner.jsx" "~/Travail/sofdesk/solargraf-app/public/js/views/pages/financial/modules/detail/DetailModule.jsx" "~/Travail/sofdesk/solargraf-app/public/js/views/pages/financial/modules/footer/Footer.jsx" "~/Travail/sofdesk/solargraf-app/public/js/views/pages/financial/modules/overview/Top.jsx" "~/Travail/sofdesk/solargraf-api/models/Project.js" "~/Travail/sofdesk/solargraf-api/test/api/projects/get.js" "~/Travail/sofdesk/solargraf-api/migrations/20151023_152824_signature.js" "~/Travail/sofdesk/solargraf-api/migrations/20151021_141015_projectPanelPicture.js" "~/Travail/sofdesk/solargraf-api/test/api/projects/resources.js" "~/Travail/sofdesk/solargraf-api/models/FlowStep.js" "~/Travail/sofdesk/solargraf-api/models/Lead.js" "~/Travail/sofdesk/solargraf-api/api/flows.js" "~/Travail/sofdesk/solargraf-api/api/leads.js" "~/Travail/sofdesk/solargraf-api/models/ProjectPanel.js" "~/Travail/sofdesk/solargraf-api/api/panels.js" "~/Travail/sofdesk/solargraf-api/models/ProjectFile.js" "~/Travail/sofdesk/solargraf-api/migrations/20151201_115403_mountTypeMigration_week3.js" "~/Travail/sofdesk/solargraf-api/bin/populate/ProjectPanel.js" "~/Travail/sofdesk/solargraf-api/test/models/ProjectPanel/toJSON.js" "~/Travail/sofdesk/solargraf-api/test/models/ProjectSettings/setAttributes.js" "~/Travail/sofdesk/solargraf-api/migrations/20151201_115403_mountTypeMigration.js" "~/Travail/sofdesk/solargraf-api/test/modules/taskScheduler/tasks/billing/subscriptions/BillingJob.js" "~/Desktop/correction_lab_5/Equipe 1/1.org" "/home/lemelino/Desktop/correction_lab_5/Equipe 1/1.org" "/home/lemelino/Desktop/correction_lab_5/template.org" "~/Travail/sofdesk/solargraf-api/modules/taskScheduler/tasks/billing/subscriptions.js" "~/Travail/sofdesk/solargraf-api/api/utils/global.js" "~/Travail/sofdesk/solargraf-api/test/api/permissions/users/post.js" "~/Travail/sofdesk/solargraf-api/test/api/permissions/users/put.js" "~/Travail/sofdesk/solargraf-api/test/mock/MockAuthnet/Transaction.js" "~/Travail/sofdesk/solargraf-api/test/api/companies/post.js" "~/Travail/sofdesk/solargraf-api/modules/SgCrypto/index.js" "/home/lemelino/Desktop/correction_lab_4/1.org" "~/Travail/sofdesk/solargraf-api/test/api/companies/templates/defaults.js" "~/Travail/sofdesk/solargraf-api/test/api/companies/templates/post.js" "~/Travail/sofdesk/solargraf-api/test/api/companies/templates/functions.js" "~/Travail/sofdesk/solargraf-api/test/api/companies/colorschemes/data.js" "~/Travail/sofdesk/solargraf-api/test/api/companies/colorschemes/functions.js" "~/Travail/sofdesk/solargraf-api/test/api/companies/colorschemes/post.js" "~/Travail/sofdesk/solargraf-api/test/api/companies/data.js" "~/Travail/sofdesk/solargraf-api/test/api/permissions/companies/post.js" "~/Travail/sofdesk/solargraf-api/modules/file/config/global.js" "~/Travail/sofdesk/solargraf-api/modules/file/config/dev.js" "~/Travail/sofdesk/solargraf-api/modules/geocoding/index.js" "~/Travail/sofdesk/solargraf-api/modules/geocoding/config/test.js" "~/Travail/sofdesk/solargraf-api/modules/geocoding/config/dev.js" "~/Travail/sofdesk/solargraf-api/models/Position.js" "~/Travail/sofdesk/solargraf-api/test/models/allModels.js" "~/Travail/sofdesk/solargraf-api/test/api/users/get.js" "~/Travail/sofdesk/solargraf-api/modules/file/config/test.js" "~/Travail/sofdesk/solargraf-api/config/dev.js" "~/Travail/sofdesk/solargraf-api/package.json" "~/Travail/sofdesk/solargraf-api/modules/cache/config/test.js" "~/Travail/sofdesk/solargraf-api/modules/cache/config/dev.js" "~/Travail/sofdesk/solargraf-api/modules/cache/config/global.js" "~/Travail/sofdesk/solargraf-api/config/dev.local.js" "~/Travail/sofdesk/solargraf-api/modules/fileReceiver/config/dev.js" "~/Travail/sofdesk/dsire/standalone.js" "~/Travail/sofdesk/solargraf-api/modules/file/index.js" "~/Travail/sofdesk/solargraf-api/config/defaultTerms.txt" "~/Travail/sofdesk/solargraf-api/migrations/20151105_110134_userSettings.js" "~/Travail/sofdesk/solargraf-api/migrations/20151009_141602_projectEnergyDegradation.js" "~/Travail/sofdesk/solargraf-api/migrations/20151009_104015_projectConnection.js" "~/Travail/sofdesk/solargraf-api/migrations/20151028_164851_defaultTerms.js" "~/Travail/sofdesk/solargraf-api/models/PanelModel.js" "~/Travail/sofdesk/solargraf-api/models/Panel.js" "~/Travail/sofdesk/solargraf-api/api/inviteUser.js" "~/Travail/sofdesk/solargraf-api/models/msi/LeadOffer.js" "~/Travail/sofdesk/solargraf-api/api/leadOffers.js" "~/Travail/sofdesk/solargraf-api/test/api/public/post.js" "~/Travail/sofdesk/solargraf-api/models/Templating/ColorScheme.js" "~/Travail/sofdesk/solargraf-api/bin/populate/ColorScheme.js" "~/Travail/sofdesk/solargraf-api/modules/fileReceiver/utils.js" "~/Travail/sofdesk/solargraf-api/api/public.js" "~/dotfiles/.i3/config" "~/Travail/sofdesk/solargraf-api/test/modules/imageReceiver/stripImagesFromRequest.js" "~/Travail/sofdesk/solargraf-api/test/modules/mapimage/test.js" "~/Travail/sofdesk/solargraf-api/modules/mapimage/config/test.js" "~/Travail/sofdesk/solargraf-api/modules/mapimage/config/global.js" "~/Travail/sofdesk/solargraf-api/modules/mapimage/config/dev.js" "~/Travail/sofdesk/solargraf-api/modules/imageReceiver/index.js" "~/Travail/sofdesk/solargraf-api/api/utils/index.js" "~/Travail/sofdesk/solargraf-api/.travis.yml" "~/Travail/sofdesk/solargraf-api/api/balances.js" "~/Travail/sofdesk/solargraf-api/test/mock/MockAuthnet/Credit.js" "~/Travail/sofdesk/solargraf-api/test/mock/MockAuthnet/Customer.js" "~/Travail/sofdesk/solargraf-api/api/cards.js" "~/Travail/sofdesk/solargraf-api/test/mock/MockAuthnet/index.js" "~/Travail/sofdesk/solargraf-api/modules/billing/config/dev.js" "~/Travail/sofdesk/solargraf-api/modules/incentives/data/US.js" "~/Travail/sofdesk/solargraf-api/modules/billing/#transaction.js#" "~/Travail/sofdesk/solargraf-api/migrations/20151126_125311_world_regions_insert_fix.js" "~/Travail/sofdesk/solargraf-api/bin/populate.sh" "~/Travail/sofdesk/solargraf-api/models/msi/WorldRegion.js" "~/Travail/sofdesk/solargraf-api/bin/populateWorldRegions.js" "~/Travail/sofdesk/solargraf-api/node_modules/dsire/standalone.js" "~/Travail/sofdesk/solargraf-api/node_modules/dsire/index.js" "~/Travail/sofdesk/solargraf-api/node_modules/authnet-request/cim.js" "~/Travail/sofdesk/solargraf-api/node_modules/authnet/models/Transaction.js" "~/Travail/sofdesk/solargraf-api/node_modules/authnet/index.js" "~/Travail/sofdesk/solargraf-api/modules/billing/config/test.js" "~/Travail/sofdesk/solargraf-api/node_modules/authnet-request/index.js" "~/Travail/sofdesk/solargraf-api/models/Balance/LeadBank.js" "~/Travail/sofdesk/solargraf-api-mirror/api/companies.js" "~/Travail/sofdesk/solargraf-api/node_modules/financial/ProjectAnalyser.js" "~/Travail/sofdesk/solargraf-api/node_modules/financial/index.js" "~/Desktop/incentives-work/incentives-work.js" "~/Desktop/incentives-work/selectedStates.json" "/home/lemelino/Desktop/correction_lab_1/.git/COMMIT_EDITMSG" "~/Travail/sofdesk/solargraf-api/node_modules/ipaddr.js/lib/ipaddr.js" "~/Travail/sofdesk/solargraf-api/.ebextensions/10_deploy_node.config" "~/Desktop/incentives-work.js" "~/Travail/sofdesk/solargraf-api/modules/imageManipulator/index.js" "~/Travail/sofdesk/solargraf-api/.gitignore" "~/Desktop/selectedStates.json" "~/Desktop/all.json" "/home/lemelino/.emacs.d/.git/COMMIT_EDITMSG" "~/.emacs.d/" "~/Travail/sofdesk/solargraf-api/test/modules/fileReceiver/" "/home/lemelino/Travail/sofdesk/solargraf-api/test/modules/fileReceiver" "~/Travail/sofdesk/solargraf-api/test/modules/" "~/Travail/sofdesk/solargraf-api/models/Drawing.js" "~/Travail/sofdesk/solargraf-api/models/Signature.js" "~/Travail/sofdesk/solargraf-api/api/index.js" "~/Travail/sofdesk/solargraf-api/modules/emails/index.js" "~/Travail/sofdesk/solargraf-api/modules/mapimage/index.js" "/home/lemelino/Travail/sofdesk/solargraf-api/modules/fileReceiver/config" "~/Desktop/background/background.asm" "~/Desktop/correction_lab_1/X.org" "~/Desktop/correction_lab_1/7.org" "~/Desktop/correction_lab_1/4.org" "~/Desktop/correction_lab_1/4.pdf" "~/Desktop/correction_lab_1/1.pdf" "~/Desktop/correction_lab_1/1.org" "~/Desktop/correction_lab_1/RapportLab1+AlexeiBajenov.docx" "~/Desktop/correction_lab_1/7.pdf" "~/Desktop/correction_lab_1/6.org" "~/Travail/sofdesk/solargraf-app/public/js/actions/AlertsActions.js" "~/Travail/sofdesk/dsire/converter.js" "~/Travail/sofdesk/dsire/index.js" "~/Travail/sofdesk/dsire/config.json" "~/Travail/sofdesk/dsire/converter-old.js" "~/Travail/sofdesk/dsire/converter-new.js" "~/Desktop/correction_lab_1/6.pdf" "~/Desktop/correction_lab_1/3.pdf" "~/Desktop/correction_lab_1/3.org" "~/Travail/sofdesk/dsire/Con.js" "/home/lemelino/Travail/sofdesk/dsire/converter.jss" "/home/lemelino/Travail/sofdesk/dsire/converter-old.js" "~/Travail/sofdesk/dsire/" "/home/lemelino/Desktop/selectedStates.json" "~/Desktop/fun.asm" "/home/lemelino/Travail/sofdesk/dsire/.git/COMMIT_EDITMSG" "/home/lemelino/Travail/sofdesk/solargraf-api/modules/incentives/data/US.js" "/home/lemelino/Desktop/incentives-work.js" "/home/lemelino/.emacs.d/init.el" "/home/lemelino/Go/src/reaxiom/omegaProject/main.go" "/home/lemelino/Go/reaxiom/omegaProject/main.go" "/home/lemelino/.zshrc" "/home/lemelino/Travail/sofdesk/dsire/standalone.js" "/usr/share/applications/libreoffice-startcenter.desktop" "~/.emacs.d/semanticdb/!home!lemelino!Travail!sofdesk!solargraf-api!test!api!users!semantic.cache" "/home/lemelino/Travail/sofdesk/dsire/all.json" "/home/lemelino/Travail/solargraf-api/.git/COMMIT_EDITMSG" "/home/lemelino/Travail/solargraf-app/.git/COMMIT_EDITMSG" "/home/lemelino/Desktop/objectifs.txt" "/home/lemelino/Travail/solargraf-api/.git/rebase-merge/git-rebase-todo" "~/bin/backupScript.sh" "~/Cours/Charges de cours/GTI619/Pour Achraf/Documents de cours/lab1/GTI619_H15_Lab01-Partie1.zip" "~/Cours/Charges de cours/GTI619/Pour Achraf/Documents de cours/lab1/GTI619_H15_Lab01-Vers_A.pdf" "~/Desktop/correction_lab_1/8.pdf" "~/Desktop/correction_lab_1/5.pdf" "~/Desktop/correction_lab_1/5.org" "~/Desktop/correction_lab_1/2.pdf" "~/Desktop/correction_lab_1/2.org" "~/Desktop/correction_lab_1/" "~/init.el" "~/.muttrc" "~/Mail" "~/.offlineimaprc" "~/Desktop/Linux-Bootstrap/ubuntuBootstrap.sh" "/home/lemelino/Desktop/fun.o" "/home/lemelino/Desktop/fun" "~/Desktop/correction_lab_1/1.orgg" "/home/lemelino/Desktop/correction_lab_1/X.org" "/home/lemelino/Desktop/correction_lab_1/7.org" "/home/lemelino/Desktop/correction_lab_1/6.org" "/home/lemelino/Desktop/correction_lab_1/5.org" "/home/lemelino/Desktop/correction_lab_1/4.org" "/home/lemelino/Desktop/correction_lab_1/3.org" "/home/lemelino/Desktop/correction_lab_1/2.org" "/home/lemelino/Desktop/correction_lab_1/correction_lab1_equipe_1.org" "~/Desktop/correction_lab_1/correction_lab1_template.org" "~/Desktop/correction_lab_1" "/home/lemelino/Desktop/correction_lab1_equipe_1.org" "/home/lemelino/Desktop/correction_lab1_template.org" "/home/lemelino/Desktop/lab1_equipe1.org" "/home/lemelino/.authinfo" "/home/lemelino/.emacs.before_ecb_2.40" "/home/lemelino/Desktop/authnet_creds.txt" "/home/lemelino/Desktop/baremes.org" "/home/lemelino/Desktop/baremes.txt" "/home/lemelino/Cours/2015 \201\311t\201\351/GTI515/git-repo/.git/COMMIT_EDITMSG" "/home/lemelino/Cours/2015 \201\311t\201\351/GTI515/git-repo/document/Figures/DFD-monitoring.png" "/home/lemelino/Cours/2015 \201\311t\201\351/GTI515/git-repo/.git/COMMIT_EDITMSG" "/home/lemelino/.emacs.d/latex.el" "/home/lemelino/Cours/2015 \201\311t\201\351/GTI515/git-repo/document/mainETS_francais.tex"))
+
+;; Buffer section -- buffers listed in same order as in buffer list:
+(desktop-create-buffer 206
+  "/home/lemelino/Travail/sylvain.gagnon/monument-designer/new-start/js/designer.js"
+  "designer.js"
+  'js-mode
+  '(visual-line-mode helm-mode projectile-mode undo-tree-mode flx-ido-mode company-mode git-gutter-mode)
+  837
+  '(2297 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode) (truncate-lines)))
+
+(desktop-create-buffer 206
+  "/home/lemelino/Travail/sylvain.gagnon/monument-designer/new-start/index.html"
+  "index.html"
+  'html-mode
+  '(visual-line-mode helm-mode projectile-mode undo-tree-mode flx-ido-mode company-mode centered-cursor-mode git-gutter-mode)
+  9157
+  '(9135 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix) (overwrite-mode) (truncate-lines)))
+
+(desktop-create-buffer 206
+  "/home/lemelino/Downloads/Phaser/part2.html"
+  "part2.html"
+  'html-mode
+  '(visual-line-mode helm-mode projectile-mode undo-tree-mode flx-ido-mode company-mode)
+  280
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-dos) (overwrite-mode) (truncate-lines)))
+
+(desktop-create-buffer 206
+  "/home/lemelino/.i3/config"
+  "config"
+  'conf-space-mode
+  '(visual-line-mode helm-mode projectile-mode undo-tree-mode flx-ido-mode company-mode centered-cursor-mode git-gutter-mode)
+  5137
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix) (overwrite-mode) (truncate-lines)))
+
+(desktop-create-buffer 206
+  "/home/lemelino/Travail/sylvain.gagnon/monument-designer/new-start/style.css"
+  "style.css"
+  'css-mode
+  '(visual-line-mode helm-mode projectile-mode undo-tree-mode flx-ido-mode company-mode centered-cursor-mode git-gutter-mode)
+  579
+  '(247 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix) (overwrite-mode) (truncate-lines)))
+
+(desktop-create-buffer 206
+  "/home/lemelino/Travail/sylvain.gagnon/monument-designer/new-start/listAssets.php"
+  "listAssets.php"
+  'web-mode
+  '(visual-line-mode helm-mode projectile-mode undo-tree-mode flx-ido-mode company-mode centered-cursor-mode git-gutter-mode)
+  120
+  '(1789 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix) (overwrite-mode) (truncate-lines)))
+
+(desktop-create-buffer 206
+  "/home/lemelino/.emacs.d/init.el"
+  "init.el"
+  'emacs-lisp-mode
+  '(visual-line-mode helm-mode projectile-mode undo-tree-mode flx-ido-mode company-mode centered-cursor-mode git-gutter-mode)
+  1294
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . prefer-utf-8-unix) (overwrite-mode) (truncate-lines)))
+
+(desktop-create-buffer 206
+  "/home/lemelino/Desktop/haskell-tests/first.hs"
+  "first.hs"
+  'haskell-mode
+  '(visual-line-mode helm-mode projectile-mode undo-tree-mode flx-ido-mode company-mode)
+  170
+  '(194 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . utf-8-unix) (overwrite-mode) (truncate-lines)))
+
+(desktop-create-buffer 206
+  nil
+  "haskell-tests"
+  'dired-mode
+  '(visual-line-mode helm-mode projectile-mode undo-tree-mode flx-ido-mode company-mode)
+  195
+  '(nil nil)
+  t
+  '("/home/lemelino/Desktop/haskell-tests/")
+  '((overwrite-mode) (truncate-lines)))
+
+(desktop-create-buffer 206
+  nil
+  "Desktop"
+  'dired-mode
+  '(visual-line-mode helm-mode projectile-mode undo-tree-mode flx-ido-mode company-mode)
+  189
+  '(nil nil)
+  t
+  '("/home/lemelino/Desktop/")
+  '((overwrite-mode) (truncate-lines)))
+
+(desktop-append-buffer-args 206
+  nil
+  "new-start"
+  'dired-mode
+  '(visual-line-mode helm-mode projectile-mode undo-tree-mode flx-ido-mode company-mode centered-cursor-mode)
+  458
+  '(nil nil)
+  t
+  '("/home/lemelino/Travail/sylvain.gagnon/monument-designer/new-start/")
+  '((overwrite-mode) (truncate-lines)))
+
